@@ -1,5 +1,19 @@
 {
   "projects": {
     "default": "workshop-11-6-2"
-  }
+  },
+  "targets": {
+    "workshop-11-6-2": {
+      "hosting": {
+        "dev": [
+          "dev-workshop-11-6-2"
+        ],
+        "prod": [
+          "workshop-11-6-2"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
